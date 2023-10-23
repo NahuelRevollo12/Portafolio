@@ -1,0 +1,145 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D5DBDB;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px;
+  }
+  
+  .imagen-header {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+  
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.lista-minimalista {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0;
+  }
+  
+  .lista-minimalista li {
+    background-color: #f2f2f2; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    margin: 30px 0; /* Margen para separar los elementos */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 4px; /* Borde redondeado */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .lista-minimalista li:hover {
+    background-color: #ccc; /* Cambio de color al pasar el cursor por encima */
+    transition: background-color 0.3s; /* Agrega una transición suave */
+  }
+  
+
+/* Estilo inicial del título */
+.cambio-color-titulo {
+    color: #333; /* Color de título predeterminado */
+    transition: color 0.3s; /* Agrega una transición suave en el cambio de color */
+  }
+
+
+/* Estilo predeterminado del enlace */
+a {
+    text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+    color: #a39595; /* Color de texto predeterminado */
+    transition: color 0.2s ease; /* Agrega una transición suave al cambio de color del texto */
+  }
+  
+  /* Estilo del enlace al pasar el cursor sobre él (hover) */
+  a:hover {
+    color: #007FFF; /* Cambia el color de texto al color deseado al pasar el cursor */
+  }
+  
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Estilos específicos */
+.proyecto {
+    margin-bottom: 20px;
+}
+
+.proyecto img {
+    max-width: 100%;
+}
+
+img {
+    padding: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón de abrir modal */
+  #openModalButton {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

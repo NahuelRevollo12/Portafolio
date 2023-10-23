@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Tu Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <img src="./imagenes/Banner Para LinkedIn Desarrollador De Software Moderno Negro.png" alt="Mi Nombre"
+            class="imagen-header">
+
+    </header>
+    <nav>
+        <ul class="lista-minimalista">
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+
+        </ul>
+    </nav>
+    <section id="sobre-mi">
+        <h2 data-aos="zoom-out-right" data-aos-duration="1500" >Sobre Mí</h2>
+        <p data-aos="zoom-out-right" data-aos-duration="1600">¡Hola! Soy un desarrollador web y Front End actualmente buscando un puesto de trabajo.</p>
+        <p data-aos="zoom-out-right" data-aos-duration="1650">Vivo en Argentina, provincia de Santa fe y tengo 27 años.</p>
+        <p data-aos="zoom-out-right" data-aos-duration="1700">Me destaco en las tecnologias como Java, React y aplico mucho el uso de node y git, como también github donde
+            acá <a href="https://github.com/NahuelRevollo12" target="_blank" >Mi Repositorio</a>
+            podes ver todos mis trabajos hasta el momento.</p>
+        <p data-aos="zoom-out-right" data-aos-duration="1750">Siempre estoy en continuo aprendizaje ahora mismo estudiando por mi cuenta, ya que antes hice el curso de
+            CoderHouse y acá podes ver mis Certificados en Mi <a href="https://www.linkedin.com/in/nahuelrevollo/"
+                target="_blank">Linkedin</a> .</p>
+        <button id="openModalButton" data-aos="zoom-out-right" data-aos-duration="1800">Contacto</button>
+        <div id="miModal" class="modal">
+            <div class="modal-contenido">
+                <span id="cerrarModal" class="cerrar">&times;</span>
+                <h2>Mi <a href="https://www.linkedin.com/in/nahuelrevollo/" target="_blank">Linkedin</a></h2>
+                <h2>Mi <a href="https://github.com/NahuelRevollo12" target="_blank">GitHub</a></h2>
+                <p>Muchas gracias por visitiar Mi Portafolio.</p>
+            </div>
+        </div>
+    </section>
+    <section id="proyectos">
+        <h1 class="cambio-color-titulo">Proyectos</h1>
+        <div class="proyecto">
+            <img src="./imagenes/logo_adonay.png" width="150" height="150" alt="Logo de la tienda" data-aos="zoom-in" data-aos-duration="1800" >
+            <h3 data-aos="zoom-out-right" data-aos-duration="1600">Tienda Adonay</h3>
+            <p data-aos="zoom-out-right" data-aos-duration="1650">En este proyecto que realize en CoderHouse, fue el primero haciendo una Landing page, con las tecnogolia
+                de HTML y CSS.</p>
+            <img src="./imagenes/foto_tienda_adonay.png" width="800" height="400" alt="Foto de la tienda" data-aos="fade-right"
+            data-aos-offset="300" data-aos-duration="2000"
+            data-aos-easing="ease-in-sine">
+            <img src="./imagenes/foto_tienda_adonay_2.png" width="800" height="400" alt="Fotos de Productos" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="2000">
+        </div>
+        <div class="proyecto">
+            <img src="./imagenes/logo_greatzone.png" alt="logo de la tienda greatzone" data-aos="zoom-in" data-aos-duration="1800">
+            <h3 data-aos="zoom-out-right" data-aos-duration="1650">E-commerce Tienda de venta de GPU's</h3>
+            <p data-aos="zoom-out-right" data-aos-duration="1650">Este es una App que cree con las tecnologias de JavaScript que logre en las clases de Coder, Agregué un
+                carrito de compras donde se guardaba en el LocalStorage. se podia eleguir libremente entre los productos
+                de la pagina agregar y quitar cuantas veces querramos, también le otorgue un Modal para que sea mejor.
+            </p>
+            <img src="./imagenes/foto_tienda_greatzone.png" width="800" height="400" alt="Productos de la tienda" data-aos="fade-right" data-aos-duration="2000">
+            <img src="./imagenes/foto_tienda_greatzone-carrito.png" width="800" height="400"
+                alt="Carrito de compras de la Pagina" data-aos="fade-left" data-aos-duration="2000">
+            <img src="./imagenes/foto_tienda_greatzone-compra.png" width="800" height="400" alt="Finalizar compra" data-aos="flip-up">
+        </div>
+        <div class="proyecto">
+            <img src="./imagenes/logo_erased.png" alt="Logo Erased tienda" data-aos="zoom-in" data-aos-duration="1800">
+            <h3 data-aos="zoom-out-right" data-aos-duration="1650">E-ecommerce Tienda de Indumentaria</h3>
+            <p data-aos="zoom-out-right" data-aos-duration="1650">Erased-x Es una app creada con React. la cual fui aprendiendo y pude tambien agregarle otras como
+                React-spinners /
+                React-icons también use Firebase para agregar producto con facilidad, esta app creada con mucho
+                esfuerzo, Tambien se puede validar mediante un codigo de seguimiento sus compras.</p>
+            <img src="./imagenes/ErasedHome.png" width="800" height="400" alt="Home de la APP" data-aos="flip-up" data-aos-duration="2000">
+            <img src="./imagenes/Comprobante.png" alt="Codigo de seguimiento" data-aos="flip-down" data-aos-duration="2000">
+
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nahuel Revollo</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
